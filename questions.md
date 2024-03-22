@@ -29,6 +29,10 @@ questions:
 - About other points:
   - I think that I spend a considerable time also thinking about how to present the outputs, with led into some over thinking due to didn't have much clues as how this data will be used
 
+- About tests:
+  - I tested it on the run through the API responses, but decided to add a Django `TestCase` just in case
+    - It can be run through the command: `./manage.py test`
+
 
 ### 2. How would you change your solution to account for future columns that might be requested, such as “Bill Voted On Date” or “Co-Sponsors”?
 

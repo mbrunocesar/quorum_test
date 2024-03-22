@@ -13,7 +13,7 @@ class Bill:
         self.id = int(params[0])
         self.title = params[1]
         self.sponsor_id = int(params[2]) # references Legislators
-        self.sponsor_name = "" # to be filled later / lazyload
+        self.sponsor_name = None # to be filled later / lazyload
         self.vote = None # references Votes # to be filled later / lazyload
 
 class Vote:
