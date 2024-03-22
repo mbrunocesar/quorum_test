@@ -1,4 +1,4 @@
-from quorum_app.map_utils import *
+from quorum_app.map_tables import *
 
 import quorum_app.models as models
 import quorum_app.read_from_files as files
